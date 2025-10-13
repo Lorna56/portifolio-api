@@ -49,7 +49,7 @@
 import express from "express";
 import SibApiV3Sdk from "sib-api-v3-sdk";
 import dotenv from "dotenv";
-import Contact from "../models/Contact.js"; // MongoDB model
+import Contact from "../models/contact.js"; // MongoDB model
 
 dotenv.config();
 const router = express.Router();

@@ -49,7 +49,7 @@ import dotenv from "dotenv";
 import SibApiV3Sdk from "sib-api-v3-sdk";
 import mongoose from "mongoose";
 import mailRoutes from "./routes/mail.js";
-import Contact from "./models/Contact.js"; // Your Contact model
+import Contact from "./models/contact.js"; // Your Contact model
 
 dotenv.config();
 const app = express();
